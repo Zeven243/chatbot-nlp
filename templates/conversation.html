@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chatbot Conversation</title>
+</head>
+<body>
+    <h1>Chatbot Conversation</h1>
+    <ul>
+        {% for sender, message in conversation %}
+            {% if sender == 'user' %}
+                <li>You: {{ message }}</li>
+            {% elif sender == 'bot' %}
+                <li>ChatBot: {{ message }}</li>
+            {% endif %}
+        {% endfor %}
+    </ul>
+</body>
+</html>
