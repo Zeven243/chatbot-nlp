@@ -1,6 +1,5 @@
 # ChatBot NLP Application
 
-![ChatBot NLP](chatbot-nlp.png)
 
 ChatBot NLP Application is a Python-based chatbot that incorporates Natural Language Processing (NLP) techniques to provide an interactive and engaging conversational experience. The chatbot uses advanced NLP features such as named entity recognition, sentiment analysis, part-of-speech tagging, intent classification, and contextual conversation.
 
